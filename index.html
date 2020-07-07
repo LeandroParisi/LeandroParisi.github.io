@@ -8,20 +8,72 @@
 
         <meta charset="utf-8">
 
+        <style>
+            h1, h2, h3, h4, h5 { 
+                color:white;
+                font-family: "Helvetica", sans-serif;
+                text-align: center;
+            }
+            .summary-text{
+                font-size: 1.4em;
+                text-align: center;
+                line-height: 2em;
+                text-decoration: none;
+            }
+            p { 
+                color: white;
+                font-family: monospace, sans-serif;
+                text-align: center;
+
+            }
+            hr{
+                color:white
+            }
+            body {
+                background-image: url(https://live.staticflickr.com/8669/16536512179_7ecd90cb1e_b.jpg);
+                background-size: auto;
+                background-position: center;
+                
+            }
+            .skills-bg{
+                background-color: rgb(255,255,255,0.5);
+                border-radius: 15px;
+            }
+            .skills-font{
+                font-size: 1.2em;
+            }
+            #page-title{
+                color:rgb(0, 88, 88);
+                background-color: black;
+                font-weight: bolder;
+            }
+            .button{
+                border-radius: 10px;
+                background-color: rgb(3, 128, 128);
+                margin-top: 1.5em;
+                margin-left: 50%;
+            }
+            .image-circle{
+                border-radius: 100%;
+            }
+
+
+        </style>
+
     </head>
 
 
     <body>
-        <h1><strong>Leandro Parisi</strong> | Programador Full Stack</h1>
+        <h1 id="page-title"><strong>Leandro Parisi</strong> | Programador Full Stack</h1>
         
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgr7wJgPys0U_8uAUjKrZNRO_hRS5ClYCZFg&usqp=CAU" alt="Foto Leandro Parisi" height="500px">
+        <img src="./Images/Leandro_Parisi.jpg" alt="Foto Leandro Parisi" height="500px">
         <br><br>
         
         <h2>Índice:</h2>
-            <ul>
-                <li><a href="#Sobre">Sobre</a></li>
-                <li><a href="#Habilidades">Minhas Habilidades</a></li>
-                <li><a href="#Trajetória">Minha Trajetória</a></li>
+            <ul class="summary-text">
+                <li class="button"><a href="#Sobre">Sobre</a></li>
+                <li class="button"><a href="#Habilidades">Minhas Habilidades</a></li>
+                <li class="button"><a href="#Trajetória">Minha Trajetória</a></li>
             </ul>
         <br>
         <hr>
@@ -42,7 +94,7 @@
         Conheça um pouco das minhas habilidades tanto <strong>hards</strong> quanto <strong>softs</strong>:
         <br>
         <h3 id="Habilidades">Hard Skills:</h3>
-            <ul>
+            <ul class="skills-bg skills-font">
                 <li>Toco Piano profissionalmente a mais de 10 anos!!;</li>
                 <li><b>Línguas:</b> Inglês avançado, Italiano avançado, Espanhol iniciante;</li>
                 <li><b>Office:</b> Excel avançado (dominando as funções e sabendo o básico de Macros, Word intermediário</li>
@@ -50,10 +102,9 @@
             </ul>
         <br>
         <h3>Soft Skills:</h3>
-            <ul>
+            <ul class="skills-bg skills-font">
                 <li><b>Liderança:</b> Tendo realizado diversos cursos na área e gerenciado 2 pequenas empresas com equipes de aproximadamente 5 pessoas</li>
                 <li><b>Didática:</b> Tendo trabalhado por mais de 5 anos como professor de música tanto em escolas regulares quanto em escolas livres e como professor particular desenvolvi uma fortemente minha <em>empatia e metodologia de ensino</em> o que me auxilia fortemente em times baseados na colaboração e aprendizado mútuo</li>
-                <li></li>
             </ul>
         </p>
 
@@ -62,9 +113,10 @@
         <h2 id="Trajetória">Conheça meus valores e trabalho como músico:</h2>
         <p>
             Lhe convido a conhecer um pouco mais sobre mim nos diversos posts que tenho no 
-            <a href="https://piano.bike/blog" target="_blank"><strong>Blog</strong> do <em>PianoBike</em></a>
+            <br><br><a href="https://piano.bike/blog" target="_blank"><strong>Blog do PianoBike</strong></a>
             <br>
-            Ou, se preferir conteúdos em <strong>áudio</strong> basta conhecer nosso <strong>Podcast</strong> o <a href="https://anchor.fm/pianobiketalks" target="_blank"><strong>PianoBike Talks!</strong></a>
+            <br><br>
+            Ou, se preferir conteúdos em <strong>áudio</strong> basta conhecer nosso <strong>Podcast</strong> o <br><br><a href="https://anchor.fm/pianobiketalks" target="_blank"><strong>PianoBike Talks!</strong></a><br>
 
         </p>
       
