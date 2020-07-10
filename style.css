@@ -6,13 +6,15 @@ h1, h2, h3, h4, h5 {
 
 .header{
     width: 100%;
+    vertical-align: middle;
 }
 
 .header-content-left{
     width: 55%;
     display: inline-block;
     background-color: black;
-    /* como colocar ele alinhado verticalmente? */
+    position: relative;
+    bottom: 50px;
 }
 
 .header-content-right{  
